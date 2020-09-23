@@ -1,0 +1,26 @@
+html, body{
+  height: 100%;
+}
+body{
+  font: caption;
+  margin: 0;
+  display:flex;
+  user-select: none;
+  color:white;
+  background-color:#2c2f33;
+}
+.nav-background{
+  	background-color:	#333333;
+}
+nav-background-two{
+  background-color: #99aab5;
+}
+
+.nav-icon{
+  border: 5px solid transparent
+}
+
+.nav-icon:hover{
+
+  border-right: cyan solid 5px;
+}

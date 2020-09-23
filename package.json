@@ -1,0 +1,29 @@
+{
+  "name": "mattera",
+  "version": "1.0.0",
+  "description": "First app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --exec electron .",
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "author": "Pierre Giroud",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "chart.js": "^2.9.3",
+    "electron-log": "^4.0.0",
+    "electron-version": "^2.0.1",
+    "electron-window-state": "^5.0.3",
+    "jquery": "^3.4.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "electron": "^7.1.11",
+    "electron-builder": "^22.2.0"
+  }
+}
